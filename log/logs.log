@@ -37,3 +37,6 @@
 2021-06-10 00:31:50   INFO [SimpleTests:33  ] : Wait seconds: 10
 2021-06-10 00:31:52   INFO [SimpleTests:35  ] : browser was opened
 2021-06-10 00:31:54   INFO [SimpleTests:53  ] : rules is Правила пользования вебсайтом
+2021-07-10 06:25:09   INFO [SimpleTests:30  ] : Get chromeDriver
+2021-07-10 06:25:09   INFO [SimpleTests:33  ] : Wait seconds: 10
+2021-07-10 06:25:10   INFO [SimpleTests:35  ] : browser was opened

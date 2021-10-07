@@ -6,8 +6,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -27,7 +31,7 @@ public class SimpleTests {
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         logger.info("Wait seconds: 10");
-        webDriver.get("https://dou.ua/");
+        webDriver.get("https://www.selenium.dev/");
         logger.info("browser was opened");
     }
 
@@ -37,15 +41,27 @@ public class SimpleTests {
     }
 
     @Test
-    public void checkElementsInDou() {
-        String douTitle = webDriver.getTitle();
-        Assert.assertEquals("Спільнота програмістів | DOU", douTitle);
-        webDriver.findElement(By.xpath("(//a[contains(text(),'Календар')])[1]")).click();
-        String podii = webDriver.findElement(By.xpath("(//span[@class='m-hide'])[1]")).getText();
-        Assert.assertEquals("Події", podii);
-        webDriver.findElement(By.xpath("(//a[normalize-space()='Legal'])[1]")).click();
-        String rules = webDriver.findElement(By.xpath("(//h1[contains(text(),'Правила пользования вебсайтом')])[1]")).getText();
-        Assert.assertEquals("Правила пользования вебсайтом", rules);
+    public void seleniumTest() {
+        String exTitle = webDriver.findElement(By.xpath("//*[@id='td-cover-block-0']/div/div/div/div/h1")).getText();
+        Assert.assertEquals("Selenium automates browsers. That's it!", exTitle);
+        webDriver.findElement(By.xpath("/html/body/div[1]/main/section[2]/div/div/div[1]/div/div[2]/div/a")).click();
+        String exTittleWD = webDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div/main/div/h1")).getText();
+        Assert.assertEquals("WebDriver", exTittleWD);
+        webDriver.findElement(By.xpath("/html/body/div[1]/div[4]/div/div/div/a/i")).click();
+        String exTittleSponsor = webDriver.findElement(By.xpath("//*[@id='td-cover-block-0']/div/div/div/div/h1")).getText();
+        Assert.assertEquals("Sponsors", exTittleSponsor);
     }
 
+    @Test
+    public void seleniumTest_2() throws InterruptedException {
+        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).clear();
+        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).sendKeys("WebDriver");
+        Thread.sleep(3000);
+        WebElement dynamicElem = (new WebDriverWait(webDriver, 10))
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@id='algolia-autocomplete-listbox-0']")));
+        System.out.println(dynamicElem.getTagName());
+        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).sendKeys(Keys.ENTER);
+        String exTittleWD = webDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div/main/div/h1")).getText();
+        Assert.assertEquals("WebDriver", exTittleWD);
+    }
 }
