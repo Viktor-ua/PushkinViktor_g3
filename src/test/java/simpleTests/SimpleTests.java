@@ -42,26 +42,26 @@ public class SimpleTests {
 
     @Test
     public void seleniumTest() {
-        String exTitle = webDriver.findElement(By.xpath("//*[@id='td-cover-block-0']/div/div/div/div/h1")).getText();
+        String exTitle = webDriver.findElement(By.xpath("//div[@class='text-center']/h1")).getText();
         Assert.assertEquals("Selenium automates browsers. That's it!", exTitle);
-        webDriver.findElement(By.xpath("/html/body/div[1]/main/section[2]/div/div/div[1]/div/div[2]/div/a")).click();
-        String exTittleWD = webDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div/main/div/h1")).getText();
+        webDriver.findElement(By.xpath("//div[@class='selenium-button-container']/a[@href='/documentation/webdriver/']")).click();
+        String exTittleWD = webDriver.findElement(By.xpath("//div[@class='td-content']/h1")).getText();
         Assert.assertEquals("WebDriver", exTittleWD);
-        webDriver.findElement(By.xpath("/html/body/div[1]/div[4]/div/div/div/a/i")).click();
-        String exTittleSponsor = webDriver.findElement(By.xpath("//*[@id='td-cover-block-0']/div/div/div/div/h1")).getText();
+        webDriver.findElement(By.xpath("//div[@class='selenium-button-container']/a")).click();
+        String exTittleSponsor = webDriver.findElement(By.xpath("//div[@class='text-center']/h1 ")).getText();
         Assert.assertEquals("Sponsors", exTittleSponsor);
     }
 
     @Test
     public void seleniumTest_2() throws InterruptedException {
-        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).clear();
-        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).sendKeys("WebDriver");
+        webDriver.findElement(By.xpath("//input[@type='search']")).clear();
+        webDriver.findElement(By.xpath("//input[@type='search']")).sendKeys("WebDriver");
         Thread.sleep(3000);
         WebElement dynamicElem = (new WebDriverWait(webDriver, 10))
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@id='algolia-autocomplete-listbox-0']")));
         System.out.println(dynamicElem.getTagName());
-        webDriver.findElement(By.xpath("//*[@id='main_navbar']/div/span/input")).sendKeys(Keys.ENTER);
-        String exTittleWD = webDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div/main/div/h1")).getText();
+        webDriver.findElement(By.xpath("//input[@type='search']")).sendKeys(Keys.ENTER);
+        String exTittleWD = webDriver.findElement(By.xpath("//div[@class='td-content']/h1")).getText();
         Assert.assertEquals("WebDriver", exTittleWD);
     }
 }

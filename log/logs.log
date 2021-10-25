@@ -40,3 +40,72 @@
 2021-07-10 06:25:09   INFO [SimpleTests:30  ] : Get chromeDriver
 2021-07-10 06:25:09   INFO [SimpleTests:33  ] : Wait seconds: 10
 2021-07-10 06:25:10   INFO [SimpleTests:35  ] : browser was opened
+2021-07-10 07:40:27   INFO [SimpleTests:30  ] : Get chromeDriver
+2021-07-10 07:40:27   INFO [SimpleTests:33  ] : Wait seconds: 10
+2021-07-10 07:40:29   INFO [SimpleTests:35  ] : browser was opened
+2021-07-10 07:43:18   INFO [SimpleTests:30  ] : Get chromeDriver
+2021-07-10 07:43:18   INFO [SimpleTests:33  ] : Wait seconds: 10
+2021-07-10 07:43:21   INFO [SimpleTests:35  ] : browser was opened
+2021-07-10 07:43:58   INFO [SimpleTests:30  ] : Get chromeDriver
+2021-07-10 07:43:59   INFO [SimpleTests:33  ] : Wait seconds: 10
+2021-07-10 07:43:59   INFO [SimpleTests:35  ] : browser was opened
+2021-11-10 06:17:46   INFO [SimpleTests:30  ] : Get chromeDriver
+2021-11-10 06:17:46   INFO [SimpleTests:33  ] : Wait seconds: 10
+2021-11-10 06:17:48   INFO [SimpleTests:35  ] : browser was opened
+2021-13-10 06:28:24   INFO [RegistrationTests:24  ] : Get chromeDriver
+2021-13-10 06:28:24   INFO [RegistrationTests:27  ] : Wait seconds: 10
+2021-13-10 06:28:28   INFO [RegistrationTests:29  ] : browser was opened
+2021-13-10 06:56:45   INFO [RegistrationTests:27  ] : Get chromeDriver
+2021-13-10 06:56:46   INFO [RegistrationTests:30  ] : browser was opened
+2021-13-10 06:56:50   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-13-10 07:29:23   INFO [RegistrationTests:29  ] : Get chromeDriver
+2021-13-10 07:29:23   INFO [RegistrationTests:32  ] : browser was opened
+2021-13-10 07:29:28   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-15-10 07:52:03   INFO [RegistrationTests:29  ] : Get chromeDriver
+2021-15-10 07:52:03   INFO [RegistrationTests:32  ] : browser was opened
+2021-15-10 07:52:07   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-16-10 22:07:46   INFO [Domashka_4:22  ] : Get chromeDriver
+2021-16-10 22:07:46   INFO [Domashka_4:25  ] : browser was opened
+2021-16-10 22:07:50   INFO [Domashka_4:27  ] : browser was opened
+2021-16-10 22:50:57   INFO [Domashka_4:23  ] : Get chromeDriver
+2021-16-10 22:50:57   INFO [Domashka_4:26  ] : browser was opened
+2021-16-10 22:51:15   INFO [Domashka_4:28  ] : browser was opened
+2021-18-10 21:20:19   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:20:19   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:20:43   INFO [Domashka_4:29  ] : browser was opened
+2021-18-10 21:22:26   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:22:26   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:23:28   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:23:28   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:25:20   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:25:20   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:28:41   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:28:41   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:31:32   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:31:32   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:43:25   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:43:26   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:44:23   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:44:23   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:50:13   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:50:13   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 21:50:46   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 21:50:47   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:01:20   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:01:21   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:01:45   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:01:46   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:02:39   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:02:40   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:03:12   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:03:13   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:03:24   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:03:25   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:04:52   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:04:53   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:11:35   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:11:35   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:12:05   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:12:06   INFO [Domashka_4:27  ] : browser was opened
+2021-18-10 22:12:30   INFO [Domashka_4:24  ] : Get chromeDriver
+2021-18-10 22:12:30   INFO [Domashka_4:27  ] : browser was opened
