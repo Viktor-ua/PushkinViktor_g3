@@ -23,7 +23,8 @@ public class RegistrationTests {
     @Before
     public void setUp() {
         logger = Logger.getLogger(getClass());
-        File fileChromeDriver = new File("./drivers/chromedriver.exe");
+        File fileChromeDriver = new File("./" +
+                "drivers/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", fileChromeDriver.getAbsolutePath());
         webDriver = new ChromeDriver();
         logger.info("Get chromeDriver");
