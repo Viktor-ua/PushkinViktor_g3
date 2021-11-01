@@ -121,3 +121,15 @@
 2021-25-10 21:59:04   INFO [Domashka_4:27  ] : browser was opened
 2021-25-10 21:59:29   INFO [Domashka_4:24  ] : Get chromeDriver
 2021-25-10 21:59:29   INFO [Domashka_4:27  ] : browser was opened
+2021-28-10 21:52:17   INFO [RegistrationTests:30  ] : Get chromeDriver
+2021-28-10 21:52:17   INFO [RegistrationTests:33  ] : browser was opened
+2021-28-10 21:52:22   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-28-10 21:55:25   INFO [RegistrationTests:30  ] : Get chromeDriver
+2021-28-10 21:55:25   INFO [RegistrationTests:33  ] : browser was opened
+2021-28-10 21:55:30   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-01-11 06:18:20   INFO [RegistrationTests:31  ] : Get chromeDriver
+2021-01-11 06:18:21   INFO [RegistrationTests:34  ] : browser was opened
+2021-01-11 06:18:25   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-01-11 06:21:40   INFO [RegistrationTests:31  ] : Get chromeDriver
+2021-01-11 06:21:40   INFO [RegistrationTests:34  ] : browser was opened
+2021-01-11 06:21:48   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
