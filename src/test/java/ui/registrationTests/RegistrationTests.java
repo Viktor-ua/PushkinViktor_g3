@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ui.pages.MainPage;
+import ui.pages.MyAccount;
+import ui.pages.Registration2Page;
 import ui.pages.RegistrationPage;
 
 import java.io.File;
@@ -20,6 +22,9 @@ public class RegistrationTests {
 
     public MainPage mainPage;
     public RegistrationPage registrationPage;
+    public Registration2Page registration2Page;
+    public MyAccount myAccount;
+
 
     @Before
     public void setUp() {
@@ -34,6 +39,8 @@ public class RegistrationTests {
         logger.info("browser was opened");
         mainPage = new MainPage(webDriver);
         registrationPage = new RegistrationPage(webDriver);
+        registration2Page = new Registration2Page(webDriver);
+        myAccount = new MyAccount(webDriver);
 
     }
 
@@ -42,7 +49,7 @@ public class RegistrationTests {
         webDriver.quit();
     }
 
-    private final String EMAIL = "928374sd89_2398@gmail.com";
+    private final String EMAIL = "928374q1s2d89_2398@gmail.com";
     private final String FIRST_NAME = "Vitya";
     private final String LAST_NAME = "Pushkin";
     private final String PASSWORD = "qwerty123";
@@ -72,6 +79,31 @@ public class RegistrationTests {
         registrationPage.inputAlias(EMAIL);
         registrationPage.clickSubmitAccount();
         Assert.assertEquals("MY ACCOUNT",
-                registrationPage.checkTitle());
+                myAccount.checkTitle());
+        myAccount.checkTitle("Title",
+                myAccount.checkTitleTextOnPage("My account - My Store"), true);
+    }
+
+    @Test
+    public void registrationPage2() {
+        mainPage.openUrl("http://automationpractice.com/");
+        registration2Page
+                .openSignInPage()
+                .inputEmailCreate(EMAIL)
+                .submitButtonCreate()
+                .inputCustomerFN(FIRST_NAME)
+                .inputCustomerLN(LAST_NAME)
+                .inputPassword(PASSWORD)
+                .inputFirstName(FIRST_NAME)
+                .inputLastName(LAST_NAME)
+                .inputStreet(STREET)
+                .inputCity(CITY)
+                .selectState(STATE)
+                .inputPostCode(POST_CODE)
+                .inputMobilePhone(MOBILE_PHONE)
+                .inputAlias(EMAIL)
+                .clickSubmitAccount();
+        Assert.assertEquals("MY ACCOUNT",
+                myAccount.checkTitle());
     }
 }

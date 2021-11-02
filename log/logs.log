@@ -133,3 +133,54 @@
 2021-01-11 06:21:40   INFO [RegistrationTests:31  ] : Get chromeDriver
 2021-01-11 06:21:40   INFO [RegistrationTests:34  ] : browser was opened
 2021-01-11 06:21:48   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-01-11 06:49:03   INFO [RegistrationTests:33  ] : Get chromeDriver
+2021-01-11 06:49:04   INFO [RegistrationTests:36  ] : browser was opened
+2021-01-11 06:49:08   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-01-11 07:20:38   INFO [RegistrationTests:33  ] : Get chromeDriver
+2021-01-11 07:20:38   INFO [RegistrationTests:36  ] : browser was opened
+2021-01-11 07:20:42   INFO [  MainPage:28  ] : Page was opened http://automationpractice.com/
+2021-01-11 07:20:43   INFO [Registration2Page:28  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-02-11 22:33:13   INFO [RegistrationTests:36  ] : Get chromeDriver
+2021-02-11 22:33:13   INFO [RegistrationTests:39  ] : browser was opened
+2021-02-11 22:33:17   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-02-11 22:33:19   INFO [WebElements:32  ] : 928374qsd89_2398@gmail.com was inputted
+2021-02-11 22:33:19   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (ae1b275fa9903795e6fe7503d73c7314)] -> id: SubmitCreate]
+2021-02-11 22:33:32   INFO [RegistrationTests:36  ] : Get chromeDriver
+2021-02-11 22:33:32   INFO [RegistrationTests:39  ] : browser was opened
+2021-02-11 22:33:37   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-02-11 22:33:38   INFO [WebElements:32  ] : 928374qs2d89_2398@gmail.com was inputted
+2021-02-11 22:33:38   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (0f4c39d195f96a0e8fe3311856eebca9)] -> id: SubmitCreate]
+2021-02-11 22:33:40   INFO [WebElements:32  ] : Vitya was inputted
+2021-02-11 22:33:40   INFO [WebElements:32  ] : Pushkin was inputted
+2021-02-11 22:33:40   INFO [WebElements:32  ] : 928374qs2d89_2398@gmail.com was inputted
+2021-02-11 22:33:41   INFO [WebElements:32  ] : qwerty123 was inputted
+2021-02-11 22:33:41   INFO [WebElements:32  ] : Vitya was inputted
+2021-02-11 22:33:41   INFO [WebElements:32  ] : Pushkin was inputted
+2021-02-11 22:33:41   INFO [WebElements:32  ] : streen New York, 12 was inputted
+2021-02-11 22:33:41   INFO [WebElements:32  ] : New York was inputted
+2021-02-11 22:33:42   INFO [WebElements:32  ] : 12345 was inputted
+2021-02-11 22:33:42   INFO [WebElements:32  ] : 1234567890 was inputted
+2021-02-11 22:33:42   INFO [WebElements:32  ] : 928374qs2d89_2398@gmail.com was inputted
+2021-02-11 22:33:54   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-02-11 22:34:51   INFO [RegistrationTests:36  ] : Get chromeDriver
+2021-02-11 22:34:51   INFO [RegistrationTests:39  ] : browser was opened
+2021-02-11 22:34:55   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-02-11 22:34:57   INFO [WebElements:32  ] : 928374qs2d89_2398@gmail.com was inputted
+2021-02-11 22:34:57   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (f0383cb98dcf6affafea4802823baed1)] -> id: SubmitCreate]
+2021-02-11 22:35:16   INFO [RegistrationTests:36  ] : Get chromeDriver
+2021-02-11 22:35:16   INFO [RegistrationTests:39  ] : browser was opened
+2021-02-11 22:35:20   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-02-11 22:35:22   INFO [WebElements:32  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-02-11 22:35:22   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (9d586b6f08fce3d41f0b136788423c96)] -> id: SubmitCreate]
+2021-02-11 22:35:24   INFO [WebElements:32  ] : Vitya was inputted
+2021-02-11 22:35:24   INFO [WebElements:32  ] : Pushkin was inputted
+2021-02-11 22:35:24   INFO [WebElements:32  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-02-11 22:35:24   INFO [WebElements:32  ] : qwerty123 was inputted
+2021-02-11 22:35:24   INFO [WebElements:32  ] : Vitya was inputted
+2021-02-11 22:35:25   INFO [WebElements:32  ] : Pushkin was inputted
+2021-02-11 22:35:25   INFO [WebElements:32  ] : streen New York, 12 was inputted
+2021-02-11 22:35:25   INFO [WebElements:32  ] : New York was inputted
+2021-02-11 22:35:25   INFO [WebElements:32  ] : 12345 was inputted
+2021-02-11 22:35:26   INFO [WebElements:32  ] : 1234567890 was inputted
+2021-02-11 22:35:26   INFO [WebElements:32  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-02-11 22:35:37   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'

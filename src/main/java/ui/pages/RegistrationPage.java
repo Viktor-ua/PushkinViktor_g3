@@ -6,11 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage extends MainPage{
+public class RegistrationPage extends MainPage {
 
-    public RegistrationPage(WebDriver webDriver){
+    public RegistrationPage(WebDriver webDriver) {
         super(webDriver);
     }
+
     @FindBy(xpath = "//a[@class='login']")
     public WebElement signInLink;
 
@@ -29,7 +30,7 @@ public class RegistrationPage extends MainPage{
     @FindBy(xpath = "//input[@id='email']")
     public WebElement emailInput;
 
-    @FindBy(name="passwd")
+    @FindBy(name = "passwd")
     public WebElement passwordInput;
 
     @FindBy(xpath = "//input[@id='firstname']")
@@ -62,101 +63,83 @@ public class RegistrationPage extends MainPage{
     @FindBy(xpath = "//button[@id='submitAccount']")
     public WebElement submitAccount;
 
-    @FindBy(xpath = "//div[@id='center_column']/h1")
-    public WebElement titleRegisteredAccount;
-
     /**
      * Method open SignIn page
      */
-    public void clickSignIn(){
+    public void clickSignIn() {
         signInLink.click();
     }
+
     /**
      * Method click to SignIn page
      */
-    public void openSignInPage(){
+    public void openSignInPage() {
         openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
     /**
-     *Method input email
+     * Method input email
      *
      * @param email
      */
-    public void inputEmailCreate(String email){
-        loginInput.clear();
-        loginInput.sendKeys(email);
+    public void inputEmailCreate(String email) {
+        webElements.inputText(loginInput, email);
     }
 
-    public void submitButtonCreate(){
-        submitButtonCreate.click();
+    public void submitButtonCreate() {
+        webElements.clickOnElement(submitButtonCreate);
     }
 
-    public void inputCustomerFN(String firstName){
-        customerFirstName.clear();
-        customerFirstName.sendKeys(firstName);
+    public void inputCustomerFN(String firstName) {
+        webElements.inputText(customerFirstName, firstName);
     }
 
-    public void inputCustomerLN(String lastName){
-        customerLastName.clear();
-        customerLastName.sendKeys(lastName);
+    public void inputCustomerLN(String lastName) {
+        webElements.inputText(customerLastName, lastName);
     }
 
-    public void inputEmail(String email){
-        emailInput.clear();
-        emailInput.sendKeys(email);
+    public void inputEmail(String email) {
+        webElements.inputText(emailInput, email);
     }
 
-    public void inputPassword(String password){
-        passwordInput.clear();
-        passwordInput.sendKeys(password);
+    public void inputPassword(String password) {
+        webElements.inputText(passwordInput, password);
     }
 
-    public void inputFirstName(String firstName){
-        firstNameInput.clear();
-        firstNameInput.sendKeys(firstName);
+    public void inputFirstName(String firstName) {
+        webElements.inputText(firstNameInput, firstName);
     }
 
-    public void inputLastName(String lastName){
-        lastNameInput.clear();
-        lastNameInput.sendKeys(lastName);
+    public void inputLastName(String lastName) {
+        webElements.inputText(lastNameInput, lastName);
     }
 
-    public void inputStreet(String street){
-        streetInput.clear();
-        streetInput.sendKeys(street);
+    public void inputStreet(String street) {
+        webElements.inputText(streetInput, street);
     }
 
-    public void inputCity(String city){
-        cityInput.clear();
-        cityInput.sendKeys(city);
+    public void inputCity(String city) {
+        webElements.inputText(cityInput, city);
     }
 
-    public void selectState(int index){
+    public void selectState(int index) {
         Select select = new Select(webDriver.findElement(By.xpath("//select[@id='id_state']")));
         select.selectByIndex(index);
     }
 
-    public void inputPostCode(String postCode){
-        postCodeInput.clear();
-        postCodeInput.sendKeys(postCode);
+    public void inputPostCode(String postCode) {
+        webElements.inputText(postCodeInput, postCode);
     }
 
-    public void inputMobilePhone(String phone){
-        phoneMobileInput.clear();
-        phoneMobileInput.sendKeys(phone);
+    public void inputMobilePhone(String phone) {
+        webElements.inputText(phoneMobileInput, phone);
     }
 
-    public void inputAlias(String alias){
-        aliasInput.clear();
-        aliasInput.sendKeys(alias);
+    public void inputAlias(String alias) {
+        webElements.inputText(aliasInput, alias);
     }
 
-    public void clickSubmitAccount(){
-        submitAccount.click();
-    }
-
-    public String checkTitle(){
-        return titleRegisteredAccount.getText();
+    public void clickSubmitAccount() {
+        webElements.clickOnElement(submitAccount);
     }
 }
