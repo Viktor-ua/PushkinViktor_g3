@@ -67,6 +67,12 @@ public class Registration2Page extends MainPage {
     public WebElement titleRegisteredAccount;
 
     /**
+     *annotation for domashka 5
+     */
+    @FindBy(xpath = "//div[@class='alert alert-danger']" )
+    public WebElement validationMessage;
+
+    /**
      * Method open SignIn page
      */
     public Registration2Page clickSignIn() {
@@ -177,5 +183,12 @@ public class Registration2Page extends MainPage {
 
     public String checkTitle() {
         return titleRegisteredAccount.getText();
+    }
+
+    /**
+     *Method for domashka 5
+     */
+    public String checkValidationMessage(){
+        return validationMessage.getText();
     }
 }
