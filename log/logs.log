@@ -184,3 +184,43 @@
 2021-02-11 22:35:26   INFO [WebElements:32  ] : 1234567890 was inputted
 2021-02-11 22:35:26   INFO [WebElements:32  ] : 928374q1s2d89_2398@gmail.com was inputted
 2021-02-11 22:35:37   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-05-11 20:48:09   INFO [Domashka_5:36  ] : Get chromeDriver
+2021-05-11 20:48:09   INFO [Domashka_5:39  ] : browser was opened
+2021-05-11 20:48:13   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 20:48:14   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 20:48:31   INFO [Domashka_5:36  ] : Get chromeDriver
+2021-05-11 20:48:32   INFO [Domashka_5:39  ] : browser was opened
+2021-05-11 20:48:35   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 20:48:37   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:05:31   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:05:32   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:05:37   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:05:39   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:06:55   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:06:55   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:06:59   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:07:00   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:08:37   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:08:37   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:08:46   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:08:46   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:11:07   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:11:07   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:11:14   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:11:16   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:15:49   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:15:50   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:15:54   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:15:55   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:28:37   INFO [Domashka_5:38  ] : Get chromeDriver
+2021-05-11 21:28:37   INFO [Domashka_5:41  ] : browser was opened
+2021-05-11 21:28:41   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:28:42   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:30:06   INFO [Domashka_5:37  ] : Get chromeDriver
+2021-05-11 21:30:06   INFO [Domashka_5:40  ] : browser was opened
+2021-05-11 21:30:10   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:30:11   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-05-11 21:30:31   INFO [Domashka_5:37  ] : Get chromeDriver
+2021-05-11 21:30:31   INFO [Domashka_5:40  ] : browser was opened
+2021-05-11 21:30:35   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-05-11 21:30:37   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account

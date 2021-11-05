@@ -53,7 +53,7 @@ public class RegistrationTests {
     private final String FIRST_NAME = "Vitya";
     private final String LAST_NAME = "Pushkin";
     private final String PASSWORD = "qwerty123";
-    private final String STREET = "streen New York, 12";
+    private final String STREET = "street New York, 12";
     private final String CITY = "New York";
     private final int STATE = 32;
     private final String POST_CODE = "12345";
