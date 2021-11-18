@@ -46,7 +46,7 @@ public class Registration2Page extends MainPage {
     public WebElement cityInput;
 
     @FindBy(xpath = "//select[@id='id_state']")
-    public By.ByXPath stateSelect;
+    public WebElement stateSelect;
 
     @FindBy(xpath = "//input[@id='postcode']")
     public WebElement postCodeInput;
@@ -152,11 +152,16 @@ public class Registration2Page extends MainPage {
         return this;
     }
 
-    public Registration2Page selectState(int index) {
-        Select select = new Select(webDriver.findElement(By.xpath("//select[@id='id_state']")));
-        select.selectByIndex(index);
+    public Registration2Page selectState(String text) {
+        webElements.selectTextInDropDownByText(stateSelect, text);
         return this;
     }
+
+    public Registration2Page selectCountry(String text){
+        webElements.selectTextInDropDownByText(idCountry, text);
+        return this;
+    }
+
 
     public Registration2Page inputPostCode(String postCode) {
         postCodeInput.clear();
