@@ -224,3 +224,137 @@
 2021-05-11 21:30:31   INFO [Domashka_5:40  ] : browser was opened
 2021-05-11 21:30:35   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
 2021-05-11 21:30:37   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-09-11 06:25:29   INFO [RegistrationTests:44  ] : null will be started
+2021-09-11 06:25:31   INFO [RegistrationTests:49  ] : null is started
+2021-09-11 06:25:35   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:25:36   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-09-11 06:39:02   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 06:39:04   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 06:39:09   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:39:10   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 06:39:10   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (b412666e1869c239add3cdb5fe1ea527)] -> id: SubmitCreate]
+2021-09-11 06:39:31  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 06:39:41   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 06:43:25   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 06:43:27   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 06:43:31   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:43:32   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 06:43:32   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (a90617e0d74e5f415006a37661ebdb34)] -> id: SubmitCreate]
+2021-09-11 06:43:52  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 06:44:03   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 06:46:03   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 06:46:04   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 06:46:15   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:46:26   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 06:46:26   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (2a6ef7817fc3ea6026b3af0794f7e111)] -> id: SubmitCreate]
+2021-09-11 06:46:46  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 06:46:57   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 06:47:00   INFO [RegistrationTests:68  ] : firefox is started
+2021-09-11 06:47:00   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:47:50   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 06:47:51   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 06:47:56   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:47:57   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 06:47:58   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (8909a0616821d50bfeb86c59ce9a5146)] -> id: SubmitCreate]
+2021-09-11 06:48:18  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 06:48:28   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 06:48:31   INFO [RegistrationTests:68  ] : firefox is started
+2021-09-11 06:48:35   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 06:48:37   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 06:48:37   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on WINDOWS (532b5aed-a5d3-4d17-8332-c3cf7f91560d)] -> id: SubmitCreate]
+2021-09-11 06:48:58  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 08:45:45   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 08:45:45   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 08:45:48   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 08:45:50   INFO [RegistrationTests:68  ] : firefox is started
+2021-09-11 08:45:51   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 08:45:53   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-09-11 08:45:54   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 08:45:55   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-09-11 08:46:04   INFO [RegistrationTests:58  ] : chrome will be started
+2021-09-11 08:46:05   INFO [RegistrationTests:62  ] : chrome is started
+2021-09-11 08:46:06   INFO [RegistrationTests:64  ] : firefox will be started
+2021-09-11 08:46:09   INFO [RegistrationTests:68  ] : firefox is started
+2021-09-11 08:46:09   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 08:46:12   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 08:46:12   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (71deee31b9d642b6f7dc3c5d9b3e4a5c)] -> id: SubmitCreate]
+2021-09-11 08:46:14   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-09-11 08:46:16   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-09-11 08:46:16   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on WINDOWS (e2d94f36-05d7-4509-8c10-da072a94457f)] -> id: SubmitCreate]
+2021-09-11 08:46:32  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-09-11 08:46:36  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-17-11 06:47:37   INFO [RegistrationTests:58  ] : chrome will be started
+2021-17-11 06:47:37   INFO [RegistrationTests:64  ] : firefox will be started
+2021-17-11 06:47:40   INFO [RegistrationTests:62  ] : chrome is started
+2021-17-11 06:47:42   INFO [RegistrationTests:68  ] : firefox is started
+2021-17-11 06:47:46   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 06:47:47   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 06:47:47   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 06:47:48   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 06:47:58   INFO [RegistrationTests:58  ] : chrome will be started
+2021-17-11 06:47:59   INFO [RegistrationTests:62  ] : chrome is started
+2021-17-11 06:48:00   INFO [RegistrationTests:64  ] : firefox will be started
+2021-17-11 06:48:03   INFO [RegistrationTests:68  ] : firefox is started
+2021-17-11 06:48:05   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 06:48:07   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-17-11 06:48:07   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 06:48:07   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (bf57e8002127e58cbc4da143e4506be7)] -> id: SubmitCreate]
+2021-17-11 06:48:09   INFO [WebElements:33  ] : 928374q1s2d89_2398@gmail.com was inputted
+2021-17-11 06:48:09   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on WINDOWS (479ed8f2-f8c5-4b01-86c3-193f78b5de05)] -> id: SubmitCreate]
+2021-17-11 06:48:27  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-17-11 06:48:29  ERROR [WebElements:35  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.id: customer_firstname'
+2021-17-11 07:02:24   INFO [RegistrationTests:60  ] : chrome will be started
+2021-17-11 07:02:26   INFO [RegistrationTests:64  ] : chrome is started
+2021-17-11 07:02:30   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 07:02:32   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 07:02:33   INFO [RegistrationTests:66  ] : firefox will be started
+2021-17-11 07:02:36   INFO [RegistrationTests:70  ] : firefox is started
+2021-17-11 07:02:37   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 07:02:37  ERROR [Registration2Page:35  ] : Page can't opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 07:03:41   INFO [RegistrationTests:60  ] : chrome will be started
+2021-17-11 07:03:43   INFO [RegistrationTests:64  ] : chrome is started
+2021-17-11 07:03:47   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 07:03:58   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 07:05:43   INFO [RegistrationTests:60  ] : chrome will be started
+2021-17-11 07:05:45   INFO [RegistrationTests:64  ] : chrome is started
+2021-17-11 07:05:50   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 07:05:51   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 07:05:54   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
+2021-17-11 07:05:54   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
+2021-17-11 07:07:59   INFO [RegistrationTests:60  ] : chrome will be started
+2021-17-11 07:08:01   INFO [RegistrationTests:64  ] : chrome is started
+2021-17-11 07:08:06   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-17-11 07:08:07   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-17-11 07:08:10   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
+2021-17-11 07:08:10   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
+2021-18-11 06:29:04   INFO [RegistrationTests:60  ] : chrome will be started
+2021-18-11 06:29:06   INFO [RegistrationTests:64  ] : chrome is started
+2021-18-11 06:29:16   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-18-11 06:29:20   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-18-11 06:29:26   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
+2021-18-11 06:29:26   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
+2021-18-11 06:29:42   INFO [RegistrationTests:60  ] : chrome will be started
+2021-18-11 06:29:43   INFO [RegistrationTests:64  ] : chrome is started
+2021-18-11 06:29:54   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-18-11 06:30:02   INFO [WebElements:33  ] : emmanuel.ferry@gmail.com was inputted
+2021-18-11 06:30:02   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (1f64224147c871980b1c2947fc710367)] -> id: SubmitCreate]
+2021-18-11 06:30:06   INFO [WebElements:33  ] : Vitya was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : Pushkin was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : emmanuel.ferry@gmail.com was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : qwerty123 was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : Vitya was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : Pushkin was inputted
+2021-18-11 06:30:07   INFO [WebElements:33  ] : street New York, 12 was inputted
+2021-18-11 06:30:08   INFO [WebElements:33  ] : New York was inputted
+2021-18-11 06:30:08   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
+2021-18-11 06:30:08   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
+2021-18-11 06:30:08   INFO [WebElements:33  ] : 12345 was inputted
+2021-18-11 06:30:08   INFO [WebElements:33  ] : 1234567890 was inputted
+2021-18-11 06:30:08   INFO [WebElements:33  ] : emmanuel.ferry@gmail.com was inputted
+2021-18-11 06:30:28   INFO [WebElements:48  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-18-11 06:37:33   INFO [RegistrationTests:60  ] : chrome will be started
+2021-18-11 06:37:35   INFO [RegistrationTests:64  ] : chrome is started
+2021-18-11 06:37:45   INFO [  MainPage:32  ] : Page was opened http://automationpractice.com/
+2021-18-11 06:37:49   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-18-11 06:37:56   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
+2021-18-11 06:37:56   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
