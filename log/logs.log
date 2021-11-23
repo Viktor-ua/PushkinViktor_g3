@@ -358,3 +358,180 @@
 2021-18-11 06:37:49   INFO [Registration2Page:32  ] : Page was opened http://automationpractice.com/index.php?controller=authentication&back=my-account
 2021-18-11 06:37:56   INFO [WebElements:67  ] : Was selected is DropDown by text: New York
 2021-18-11 06:37:56   INFO [WebElements:67  ] : Was selected is DropDown by text: United States
+2021-18-11 07:42:08   INFO [Domashka_6:31  ] : Get chromeDriver
+2021-18-11 07:42:08   INFO [Domashka_6:34  ] : browser was opened
+2021-18-11 07:42:09   INFO [  MainPage:32  ] : Page was opened https://www.random.org/
+2021-18-11 08:00:21   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-18-11 08:00:21   INFO [Domashka_6:35  ] : browser was opened
+2021-18-11 08:00:22   INFO [  MainPage:32  ] : Page was opened https://www.random.org/
+2021-22-11 21:11:12   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 21:11:12   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 21:11:14   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 21:20:49   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 21:20:49   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 21:20:51   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 21:56:55   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 21:56:55   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 21:56:56   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:00:30   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:00:30   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:00:32   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:00:57   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:00:57   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:00:58   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:01:25   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:01:25   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:01:26   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:01:37   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:01:37   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:01:38   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:02:33   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:02:33   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:02:35   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:04:13   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:04:13   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:04:14   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:06:23   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:06:23   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:06:24   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:07:06   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:07:06   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:07:07   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:10:34   INFO [Domashka_6:32  ] : Get chromeDriver
+2021-22-11 22:10:34   INFO [Domashka_6:35  ] : browser was opened
+2021-22-11 22:10:35   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:14:00   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-22-11 22:14:01   INFO [Domashka_6:36  ] : browser was opened
+2021-22-11 22:14:02   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:39:35   INFO [Domashka_6:37  ] : Get chromeDriver
+2021-22-11 22:39:35   INFO [Domashka_6:40  ] : browser was opened
+2021-22-11 22:39:36   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:40:33   INFO [Domashka_6:37  ] : Get chromeDriver
+2021-22-11 22:40:34   INFO [Domashka_6:40  ] : browser was opened
+2021-22-11 22:40:35   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:40:44   INFO [Domashka_6:37  ] : Get chromeDriver
+2021-22-11 22:40:45   INFO [Domashka_6:40  ] : browser was opened
+2021-22-11 22:40:46   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:40:57   INFO [Domashka_6:37  ] : Get chromeDriver
+2021-22-11 22:40:57   INFO [Domashka_6:40  ] : browser was opened
+2021-22-11 22:40:58   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-22-11 22:41:32   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-22-11 22:41:32   INFO [Domashka_6:36  ] : browser was opened
+2021-22-11 22:41:33   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 07:48:07   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 07:48:07   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 07:48:08   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 07:48:26   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 07:48:26   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 07:48:27   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 07:58:21   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 07:58:21   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 07:58:22   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 07:58:32   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 07:58:32   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 07:58:33   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:04:33   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:04:33   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:04:34   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:05:51   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:05:51   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:06:03   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:12:21   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:12:21   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:12:22   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:29:25   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:29:25   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:29:26   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:31:41   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:31:42   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:31:43   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:36:14   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:36:14   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:36:15   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:39:03   INFO [Domashka_6:33  ] : Get chromeDriver
+2021-23-11 08:39:03   INFO [Domashka_6:36  ] : browser was opened
+2021-23-11 08:39:04   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:41:21   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 08:41:21   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 08:41:23   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:42:31   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 08:42:31   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 08:42:32   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:43:41   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 08:43:41   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 08:43:43   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:44:43   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 08:44:43   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 08:44:44   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 08:45:38   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 08:45:38   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 08:45:39   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 21:40:14   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 21:40:14   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 21:40:15   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 21:40:36   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 21:40:36   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 21:40:37   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 21:50:37   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 21:50:37   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 21:50:38   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 21:51:25   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 21:51:25   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 21:51:26   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:01:13   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:01:14   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:01:15   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:02:35   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:02:35   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:02:36   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:17:58   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:17:59   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:18:00   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:18:42   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:18:42   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:18:44   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:21:43   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:21:43   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:21:44   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:23:12   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:23:12   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:23:14   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:24:49   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:24:49   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:24:50   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:31:50   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:31:50   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:31:51   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:32:36   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:32:36   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:32:37   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:33:54   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:33:54   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:33:55   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:46:26   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:46:26   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:46:27   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:46:54   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:46:54   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:46:55   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 22:47:18   INFO [Domashka_6:34  ] : Get chromeDriver
+2021-23-11 22:47:18   INFO [Domashka_6:37  ] : browser was opened
+2021-23-11 22:47:19   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:30:38   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:30:38   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:30:39   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:52:33   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:52:33   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:52:34   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:53:45   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:53:45   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:53:47   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:54:00   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:54:00   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:54:01   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:54:04   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:54:04   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:54:05   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/
+2021-23-11 23:54:08   INFO [Domashka_6:36  ] : Get chromeDriver
+2021-23-11 23:54:08   INFO [Domashka_6:39  ] : browser was opened
+2021-23-11 23:54:09   INFO [MainPageDomashkas:31  ] : Page was opened https://www.random.org/

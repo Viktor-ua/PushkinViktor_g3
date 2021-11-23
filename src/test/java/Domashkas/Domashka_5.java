@@ -41,7 +41,6 @@ public class Domashka_5 {
         mainPage = new MainPage(webDriver);
         registration2Page = new Registration2Page(webDriver);
         myAccount = new MyAccount(webDriver);
-
     }
 
     @After
