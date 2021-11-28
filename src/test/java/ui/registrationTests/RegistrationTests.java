@@ -1,16 +1,23 @@
 package ui.registrationTests;
 
 import baseTest.BaseTest;
-import org.junit.Assert;
-import org.junit.Test;
+import dataProviders.RegistrationPageDataProvider;
+import model.Account;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 
 
 public class RegistrationTests extends BaseTest {
 
     private final String EMAIL = faker.internet().emailAddress();
+    private final String GENDER = "Mr.";
     private final String FIRST_NAME = "Vitya";
     private final String LAST_NAME = "Pushkin";
     private final String PASSWORD = "qwerty123";
+    private final String DAY = "1";
+    private final String MONTH = "12";
+    private final String YEAR = "1980";
     private final String STREET = "street New York, 12";
     private final String CITY = "New York";
     private final String STATE = "New York";
@@ -18,47 +25,53 @@ public class RegistrationTests extends BaseTest {
     private final String POST_CODE = "12345";
     private final String MOBILE_PHONE = "1234567890";
 
-    public RegistrationTests(String browser) {
-        super(browser);
-    }
+//    @AfterMethod
 
-    @Test
-    public void registrationTest() {
-        mainPage.openUrl("http://automationpractice.com/");
-        registrationPage.clickSignIn();
-        registrationPage.inputEmailCreate(EMAIL);
-        registrationPage.submitButtonCreate();
-        registrationPage.inputCustomerFN(FIRST_NAME);
-        registrationPage.inputCustomerLN(LAST_NAME);
-        registrationPage.inputEmail(EMAIL);
-        registrationPage.inputPassword(PASSWORD);
-        registrationPage.inputFirstName(FIRST_NAME);
-        registrationPage.inputLastName(LAST_NAME);
-        registrationPage.inputStreet(STREET);
-        registrationPage.inputCity(CITY);
-        registrationPage.selectState(STATE);
-        registrationPage.selectCountry(COUNTRY);
-        registrationPage.inputPostCode(POST_CODE);
-        registrationPage.inputMobilePhone(MOBILE_PHONE);
-        registrationPage.inputAlias(EMAIL);
-        registrationPage.clickSubmitAccount();
-        Assert.assertEquals("MY ACCOUNT",
-                myAccount.checkTitle());
-        myAccount.checkTitle("Title",
-                myAccount.checkTitleTextOnPage("My account - My Store"), true);
-    }
+//    @Test
+//    public void registrationTest() {
+//        mainPage.openUrl("http://automationpractice.com/");
+//        signInPage.clickSignIn();
+//        signInPage.inputEmailCreate(EMAIL);
+//        signInPage.submitButtonCreate();
+//        registrationPage.selectGender(GENDER);
+//        registrationPage.inputCustomerFN(FIRST_NAME);
+//        registrationPage.inputCustomerLN(LAST_NAME);
+//        registrationPage.inputEmail(EMAIL);
+//        registrationPage.inputPassword(PASSWORD);
+//        registrationPage.selectBirthday(DAY);
+//        registrationPage.selectBirthMonth(MONTH);
+//        registrationPage.selectBirthYear(YEAR);
+//        registrationPage.inputFirstName(FIRST_NAME);
+//        registrationPage.inputLastName(LAST_NAME);
+//        registrationPage.inputStreet(STREET);
+//        registrationPage.inputCity(CITY);
+//        registrationPage.selectState(STATE);
+//        registrationPage.selectCountry(COUNTRY);
+//        registrationPage.inputPostCode(POST_CODE);
+//        registrationPage.inputMobilePhone(MOBILE_PHONE);
+//        registrationPage.inputAlias(EMAIL);
+//        registrationPage.clickSubmitAccount();
+//        Assert.assertEquals("MY ACCOUNT",
+//                myAccountPage.checkTitle());
+//        myAccountPage.checkTitle(myAccountPage.titleRegisteredAccount.isDisplayed(  ), true);
+//    }
 
     @Test
     public void registrationPage2() {
         mainPage.openUrl("http://automationpractice.com/");
-        registration2Page
-                .openSignInPage()
+        signInPage
+                .clickSignIn()
                 .inputEmailCreate(EMAIL)
-                .submitButtonCreate()
+                .submitButtonCreate();
+        registration2Page
+                .selectGender(GENDER)
                 .inputCustomerFN(FIRST_NAME)
                 .inputCustomerLN(LAST_NAME)
                 .inputEmail(EMAIL)
                 .inputPassword(PASSWORD)
+                .selectBirthday(DAY)
+                .selectBirthMonth(MONTH)
+                .selectBirthYear(YEAR)
                 .inputFirstName(FIRST_NAME)
                 .inputLastName(LAST_NAME)
                 .inputStreet(STREET)
@@ -70,6 +83,18 @@ public class RegistrationTests extends BaseTest {
                 .inputAlias(EMAIL)
                 .clickSubmitAccount();
         Assert.assertEquals("MY ACCOUNT",
-                myAccount.checkTitle());
+                myAccountPage.checkTitle());
+    }
+
+    @Test(dataProvider = "registrationNewUser", dataProviderClass = RegistrationPageDataProvider.class )
+    public void testCreateNewAccount(Account userAccount){
+        mainPage.openUrl("http://automationpractice.com/");
+        signInPage
+                .clickSignIn()
+                .inputEmailCreate(EMAIL)
+                .submitButtonCreate();
+        registration2Page.registrationNewUser(userAccount).clickSubmitAccount();
+        Assert.assertEquals(myAccountPage.getAccountName(),
+                userAccount.getFirstCustomerName() + " " + userAccount.getLastCustomerName());
     }
 }
