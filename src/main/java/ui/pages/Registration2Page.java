@@ -1,5 +1,6 @@
 package ui.pages;
 
+import model.Account;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,14 +13,11 @@ public class Registration2Page extends MainPage {
         super(webDriver);
     }
 
-    @FindBy(xpath = "//a[@class='login']")
-    public WebElement signInLink;
+    @FindBy(xpath = "//div[@class='radio-inline'][1]")
+    public WebElement genderMr;
 
-    @FindBy(xpath = "//input[@id='email_create']")
-    public WebElement loginInput;
-
-    @FindBy(id = "SubmitCreate")
-    public WebElement submitButtonCreate;
+    @FindBy(xpath = "//div[@class='radio-inline'][2]")
+    public WebElement genderMrs;
 
     @FindBy(id = "customer_firstname")
     public WebElement customerFirstName;
@@ -32,6 +30,15 @@ public class Registration2Page extends MainPage {
 
     @FindBy(name = "passwd")
     public WebElement passwordInput;
+
+    @FindBy(id = "days")
+    public WebElement daysDropDown;
+
+    @FindBy(id = "months")
+    public WebElement monthsDropDown;
+
+    @FindBy(id = "years")
+    public WebElement yearsDropDown;
 
     @FindBy(xpath = "//input[@id='firstname']")
     public WebElement firstNameInput;
@@ -67,88 +74,73 @@ public class Registration2Page extends MainPage {
     public WebElement titleRegisteredAccount;
 
     /**
-     *annotation for domashka 5
+     * annotation for domashka 5
      */
-    @FindBy(xpath = "//div[@class='alert alert-danger']" )
+    @FindBy(xpath = "//div[@class='alert alert-danger']")
     public WebElement validationMessage;
 
-    /**
-     * Method open SignIn page
-     */
-    public Registration2Page clickSignIn() {
-        signInLink.click();
-        return this;
-    }
 
-    /**
-     * Method click to SignIn page
-     */
-    public Registration2Page openSignInPage() {
-        openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        return this;
-    }
-
-    /**
-     * Method input email
-     *
-     * @param email
-     */
-    public Registration2Page inputEmailCreate(String email) {
-        loginInput.clear();
-        loginInput.sendKeys(email);
-        return this;
-    }
-
-    public Registration2Page submitButtonCreate() {
-        submitButtonCreate.click();
+    public Registration2Page selectGender(String gender) {
+        if (gender.equals("Mr.")) {
+            webElements.clickRadioButton(genderMr, gender);
+        } else {
+            webElements.clickRadioButton(genderMrs, gender);
+        }
         return this;
     }
 
     public Registration2Page inputCustomerFN(String firstName) {
-        customerFirstName.clear();
-        customerFirstName.sendKeys(firstName);
+        webElements.inputText(customerFirstName, firstName);
         return this;
     }
 
     public Registration2Page inputCustomerLN(String lastName) {
-        customerLastName.clear();
-        customerLastName.sendKeys(lastName);
+        webElements.inputText(customerLastName, lastName);
         return this;
     }
 
     public Registration2Page inputEmail(String email) {
-        emailInput.clear();
-        emailInput.sendKeys(email);
+        webElements.inputText(emailInput, email);
         return this;
     }
 
     public Registration2Page inputPassword(String password) {
-        passwordInput.clear();
-        passwordInput.sendKeys(password);
+        webElements.inputText(passwordInput, password);
+        return this;
+    }
+
+    public Registration2Page selectBirthday(String day) {
+        webElements.selectValueInDropDown(daysDropDown, day);
+        return this;
+    }
+
+    public Registration2Page selectBirthMonth(String month) {
+        webElements.selectValueInDropDown(monthsDropDown, month);
+        return this;
+    }
+
+    public Registration2Page selectBirthYear(String year) {
+        webElements.selectValueInDropDown(yearsDropDown, year);
         return this;
     }
 
     public Registration2Page inputFirstName(String firstName) {
-        firstNameInput.clear();
-        firstNameInput.sendKeys(firstName);
+        webElements.inputText(firstNameInput, firstName);
         return this;
     }
 
     public Registration2Page inputLastName(String lastName) {
-        lastNameInput.clear();
-        lastNameInput.sendKeys(lastName);
+        webElements.inputText(lastNameInput, lastName);
         return this;
     }
 
     public Registration2Page inputStreet(String street) {
-        streetInput.clear();
-        streetInput.sendKeys(street);
+        webElements.inputText(streetInput, street);
         return this;
     }
 
     public Registration2Page inputCity(String city) {
-        cityInput.clear();
-        cityInput.sendKeys(city);
+        webElements.inputText(cityInput, city);
         return this;
     }
 
@@ -157,32 +149,28 @@ public class Registration2Page extends MainPage {
         return this;
     }
 
-    public Registration2Page selectCountry(String text){
+    public Registration2Page selectCountry(String text) {
         webElements.selectTextInDropDownByText(idCountry, text);
         return this;
     }
 
-
     public Registration2Page inputPostCode(String postCode) {
-        postCodeInput.clear();
-        postCodeInput.sendKeys(postCode);
+        webElements.inputText(postCodeInput, postCode);
         return this;
     }
 
     public Registration2Page inputMobilePhone(String phone) {
-        phoneMobileInput.clear();
-        phoneMobileInput.sendKeys(phone);
+        webElements.inputText(phoneMobileInput, phone);
         return this;
     }
 
     public Registration2Page inputAlias(String alias) {
-        aliasInput.clear();
-        aliasInput.sendKeys(alias);
+        webElements.inputText(aliasInput, alias);
         return this;
     }
 
     public Registration2Page clickSubmitAccount() {
-        submitAccount.click();
+        webElements.clickOnElement(submitAccount);
         return this;
     }
 
@@ -191,9 +179,30 @@ public class Registration2Page extends MainPage {
     }
 
     /**
-     *Method for domashka 5
+     * Method for domashka 5
      */
-    public String checkValidationMessage(){
+    public String checkValidationMessage() {
         return validationMessage.getText();
+    }
+
+    public Registration2Page registrationNewUser(Account account) {
+        selectGender(account.getGender());
+        inputCustomerFN(account.getFirstCustomerName());
+        inputCustomerLN(account.getLastCustomerName());
+        inputEmail(account.getEmail());
+        inputPassword(account.getPassword());
+        selectBirthday(account.getDay());
+        selectBirthMonth(account.getMonth());
+        selectBirthYear(account.getYear());
+        inputFirstName(account.getFirstName());
+        inputLastName(account.getLastName());
+        inputStreet(account.getAddress1());
+        inputCity(account.getCity());
+        selectState(account.getState());
+        inputPostCode(account.getPostCode());
+        selectCountry(account.getCountry());
+        inputMobilePhone(account.getPhoneMobile());
+        inputAlias(account.getAlias());
+        return this;
     }
 }

@@ -1,5 +1,6 @@
 package ui.pages;
 
+import model.Account;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,14 +13,11 @@ public class RegistrationPage extends MainPage {
         super(webDriver);
     }
 
-    @FindBy(xpath = "//a[@class='login']")
-    public WebElement signInLink;
+    @FindBy(xpath = "//div[@class='radio-inline'][1]")
+    public WebElement genderMr;
 
-    @FindBy(xpath = "//input[@id='email_create']")
-    public WebElement loginInput;
-
-    @FindBy(id = "SubmitCreate")
-    public WebElement submitButtonCreate;
+    @FindBy(xpath = "//div[@class='radio-inline'][2]")
+    public WebElement genderMrs;
 
     @FindBy(id = "customer_firstname")
     public WebElement customerFirstName;
@@ -32,6 +30,15 @@ public class RegistrationPage extends MainPage {
 
     @FindBy(name = "passwd")
     public WebElement passwordInput;
+
+    @FindBy(id = "days")
+    public WebElement daysDropDown;
+
+    @FindBy(id = "months")
+    public WebElement monthsDropDown;
+
+    @FindBy(id = "years")
+    public WebElement yearsDropDown;
 
     @FindBy(xpath = "//input[@id='firstname']")
     public WebElement firstNameInput;
@@ -63,12 +70,6 @@ public class RegistrationPage extends MainPage {
     @FindBy(xpath = "//button[@id='submitAccount']")
     public WebElement submitAccount;
 
-    /**
-     * Method open SignIn page
-     */
-    public void clickSignIn() {
-        signInLink.click();
-    }
 
     /**
      * Method click to SignIn page
@@ -77,17 +78,12 @@ public class RegistrationPage extends MainPage {
         openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
-    /**
-     * Method input email
-     *
-     * @param email
-     */
-    public void inputEmailCreate(String email) {
-        webElements.inputText(loginInput, email);
-    }
-
-    public void submitButtonCreate() {
-        webElements.clickOnElement(submitButtonCreate);
+    public void selectGender(String gender) {
+        if (gender.equals("Mr.")) {
+            webElements.clickRadioButton(genderMr, gender);
+        } else {
+            webElements.clickRadioButton(genderMrs, gender);
+        }
     }
 
     public void inputCustomerFN(String firstName) {
@@ -104,6 +100,18 @@ public class RegistrationPage extends MainPage {
 
     public void inputPassword(String password) {
         webElements.inputText(passwordInput, password);
+    }
+
+    public void selectBirthday(String day) {
+        webElements.selectValueInDropDown(daysDropDown, day);
+    }
+
+    public void selectBirthMonth(String month) {
+        webElements.selectValueInDropDown(monthsDropDown, month);
+    }
+
+    public void selectBirthYear(String year) {
+        webElements.selectValueInDropDown(yearsDropDown, year);
     }
 
     public void inputFirstName(String firstName) {
@@ -126,7 +134,7 @@ public class RegistrationPage extends MainPage {
         webElements.selectTextInDropDownByText(stateSelect, text);
     }
 
-    public void selectCountry(String text){
+    public void selectCountry(String text) {
         webElements.selectTextInDropDownByText(idCountry, text);
     }
 
@@ -144,5 +152,25 @@ public class RegistrationPage extends MainPage {
 
     public void clickSubmitAccount() {
         webElements.clickOnElement(submitAccount);
+    }
+
+    public void registrationNewUser(Account account) {
+        selectGender(account.getGender());
+        inputCustomerFN(account.getFirstCustomerName());
+        inputCustomerLN(account.getLastCustomerName());
+        inputEmail(account.getEmail());
+        inputPassword(account.getPassword());
+        selectBirthday(account.getDay());
+        selectBirthMonth(account.getMonth());
+        selectBirthYear(account.getYear());
+        inputFirstName(account.getFirstName());
+        inputLastName(account.getLastName());
+        inputStreet(account.getAddress1());
+        inputCity(account.getCity());
+        selectState(account.getState());
+        inputPostCode(account.getPostCode());
+        selectCountry(account.getCountry());
+        inputMobilePhone(account.getPhoneMobile());
+        inputAlias(account.getAlias());
     }
 }

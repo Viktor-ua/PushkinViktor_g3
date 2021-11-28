@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ui.pages.MainPage;
-import ui.pages.MyAccount;
-import ui.pages.Registration2Page;
+import ui.pages.MyAccountPage;
+import ui.pagesDomashkas.RegistrationPageDomashka5;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -23,8 +23,8 @@ public class Domashka_5 {
     private Logger logger = Logger.getLogger(getClass());
 
     public MainPage mainPage;
-    public Registration2Page registration2Page;
-    public MyAccount myAccount;
+    public RegistrationPageDomashka5 registrationPageDomashka5;
+    public MyAccountPage myAccountPage;
 
 
     @Before
@@ -39,8 +39,8 @@ public class Domashka_5 {
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         logger.info("browser was opened");
         mainPage = new MainPage(webDriver);
-        registration2Page = new Registration2Page(webDriver);
-        myAccount = new MyAccount(webDriver);
+        myAccountPage = new MyAccountPage(webDriver);
+        registrationPageDomashka5 = new RegistrationPageDomashka5(webDriver);
     }
 
     @After
@@ -62,7 +62,7 @@ public class Domashka_5 {
     @Test
     public void checkValidationMessage() {
         mainPage.openUrl("http://automationpractice.com/");
-        registration2Page
+        registrationPageDomashka5
                 .openSignInPage()
                 .inputEmailCreate(EMAIL)
                 .submitButtonCreate()
@@ -78,9 +78,9 @@ public class Domashka_5 {
                 .inputMobilePhone(MOBILE_PHONE)
                 .inputAlias(EMAIL)
                 .clickSubmitAccount();
-        Assert.assertThat(registration2Page.checkValidationMessage(),
+        Assert.assertThat(registrationPageDomashka5.checkValidationMessage(),
                 startsWith("There is 1 error"));
-        Assert.assertThat(registration2Page.checkValidationMessage(),
+        Assert.assertThat(registrationPageDomashka5.checkValidationMessage(),
                 endsWith("This country requires you to choose a State."));
     }
 }
