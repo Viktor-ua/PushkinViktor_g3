@@ -1,5 +1,6 @@
 package ui.pages;
 
+import io.qameta.allure.Step;
 import model.Account;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -79,7 +80,7 @@ public class Registration2Page extends MainPage {
     @FindBy(xpath = "//div[@class='alert alert-danger']")
     public WebElement validationMessage;
 
-
+    @Step("Select gender {gender}")
     public Registration2Page selectGender(String gender) {
         if (gender.equals("Mr.")) {
             webElements.clickRadioButton(genderMr, gender);
@@ -89,86 +90,101 @@ public class Registration2Page extends MainPage {
         return this;
     }
 
+    @Step("Input customer first name {firstName}")
     public Registration2Page inputCustomerFN(String firstName) {
         webElements.inputText(customerFirstName, firstName);
         return this;
     }
 
+    @Step("Input customer last name {lastName}")
     public Registration2Page inputCustomerLN(String lastName) {
         webElements.inputText(customerLastName, lastName);
         return this;
     }
 
+    @Step("Input email {email}")
     public Registration2Page inputEmail(String email) {
         webElements.inputText(emailInput, email);
         return this;
     }
 
+    @Step("Input email {email}")
     public Registration2Page inputPassword(String password) {
         webElements.inputText(passwordInput, password);
         return this;
     }
-
+    @Step("Select birthday {day}")
     public Registration2Page selectBirthday(String day) {
         webElements.selectValueInDropDown(daysDropDown, day);
         return this;
     }
 
+    @Step("Select birthday month {month}")
     public Registration2Page selectBirthMonth(String month) {
         webElements.selectValueInDropDown(monthsDropDown, month);
         return this;
     }
-
+    @Step("Select birthday year {year}")
     public Registration2Page selectBirthYear(String year) {
         webElements.selectValueInDropDown(yearsDropDown, year);
         return this;
     }
 
+    @Step("Input first name {firstName}")
     public Registration2Page inputFirstName(String firstName) {
         webElements.inputText(firstNameInput, firstName);
         return this;
     }
 
+    @Step("Input last name {lastName}")
     public Registration2Page inputLastName(String lastName) {
         webElements.inputText(lastNameInput, lastName);
         return this;
     }
 
+    @Step("Input street {street}")
     public Registration2Page inputStreet(String street) {
         webElements.inputText(streetInput, street);
         return this;
     }
 
+    @Step("Input city {city}")
     public Registration2Page inputCity(String city) {
         webElements.inputText(cityInput, city);
         return this;
     }
 
+    @Step("Select state {text}")
     public Registration2Page selectState(String text) {
         webElements.selectTextInDropDownByText(stateSelect, text);
         return this;
     }
 
+    @Step("Select country {text}")
     public Registration2Page selectCountry(String text) {
         webElements.selectTextInDropDownByText(idCountry, text);
         return this;
     }
 
+    @Step("Input post code {postCode}")
     public Registration2Page inputPostCode(String postCode) {
         webElements.inputText(postCodeInput, postCode);
         return this;
     }
 
+    @Step("Input phone {phone}")
     public Registration2Page inputMobilePhone(String phone) {
         webElements.inputText(phoneMobileInput, phone);
         return this;
     }
 
+    @Step("Input alias {alias}")
     public Registration2Page inputAlias(String alias) {
         webElements.inputText(aliasInput, alias);
         return this;
     }
 
+    @Step("Submit account")
     public Registration2Page clickSubmitAccount() {
         webElements.clickOnElement(submitAccount);
         return this;
