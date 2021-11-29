@@ -1,8 +1,12 @@
 package baseTest;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import libs.Utils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -31,6 +35,7 @@ public class BaseTest {
 
     @Parameters("browserName")
     @BeforeClass(alwaysRun = true)
+    @Step("Set up browser options {browsers}")
     public void setUp(@Optional("chrome")  String browser) {
         if (browser.toLowerCase().equals("chrome")) {
             logger.info(browser + " will be started");
@@ -65,12 +70,18 @@ public class BaseTest {
         signInPage = new SignInPage(webDriver);
     }
 
+    @Step("Tear down browser")
     @AfterClass
     public void tearDown() {
         if (!(webDriver == null)) {
+            screenshot();
             utils.screenShot(patchToScreenShot, webDriver);
             webDriver.quit();
         }
     }
 
+    @Attachment(value = "screenshot", type = "image/png")
+    public byte[] screenshot(){
+        return ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES);
+    }
 }

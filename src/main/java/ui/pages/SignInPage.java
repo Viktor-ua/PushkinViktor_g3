@@ -1,5 +1,6 @@
 package ui.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,11 +33,13 @@ public class SignInPage extends MainPage{
      *
      * @param email
      */
+    @Step("Click on SignIn page")
     public SignInPage inputEmailCreate(String email) {
         webElements.inputText(loginInput, email);
         return this;
     }
 
+    @Step("Input email")
     public SignInPage submitButtonCreate() {
         webElements.clickOnElement(submitButtonCreate);
         return this;
