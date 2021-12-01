@@ -6,7 +6,7 @@
     <test name="ChromeTest" verbose="1" parallel="true">
         <parameter name="browserName" value="chrome">
             <classes>
-                <class name="ui.registrationTests.RegistrationTests"/>
+                <class name="seleniumTests.registrationTests.RegistrationTests"/>
             </classes>
         </parameter>
     </test>
@@ -14,7 +14,7 @@
     <test name="FirefoxTest" verbose="1" parallel="true">
         <parameter name="browserName" value="firefox">
             <classes>
-                <class name="ui.registrationTests.RegistrationTests"/>
+                <class name="seleniumTests.registrationTests.RegistrationTests"/>
             </classes>
         </parameter>
     </test>

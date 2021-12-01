@@ -1,9 +1,7 @@
-package junitTests;
+package seleniumTests.junitTests;
 
 import org.junit.*;
 import org.junit.rules.Timeout;
-
-import java.util.NoSuchElementException;
 
 public class JunitTests {
 

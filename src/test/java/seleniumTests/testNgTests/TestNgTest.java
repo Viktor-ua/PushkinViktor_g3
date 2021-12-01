@@ -1,4 +1,4 @@
-package testNgTests;
+package seleniumTests.testNgTests;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

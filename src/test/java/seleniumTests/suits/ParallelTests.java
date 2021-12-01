@@ -1,9 +1,9 @@
-package suits;
+package seleniumTests.suits;
 
 import org.junit.Test;
 import org.junit.experimental.ParallelComputer;
 import org.junit.runner.JUnitCore;
-import ui.registrationTests.RegistrationTests;
+import seleniumTests.registrationTests.RegistrationTests;
 
 public class ParallelTests {
 
