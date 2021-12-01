@@ -1,4 +1,4 @@
-package junitTests;
+package seleniumTests.junitTests;
 
 
 import org.junit.Test;
@@ -6,9 +6,6 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.RegisterExtension;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import java.time.Duration;
-
-import static com.google.common.math.LongMath.isPrime;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

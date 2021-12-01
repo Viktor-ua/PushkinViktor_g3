@@ -1,4 +1,4 @@
-package baseTest;
+package seleniumTests.baseTest;
 
 import com.github.javafaker.Faker;
 import io.qameta.allure.Attachment;

@@ -1518,3 +1518,27 @@
 2021-29-11 22:50:43   INFO [WebElements:30  ] : 1234567890 was inputted
 2021-29-11 22:50:43   INFO [WebElements:30  ] : Hello! was inputted
 2021-29-11 22:50:55   INFO [WebElements:45  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-30-11 21:47:14   INFO [RegistrationTests:41  ] : chrome will be started
+2021-30-11 21:47:16   INFO [RegistrationTests:45  ] : chrome is started
+2021-30-11 21:47:20   INFO [  MainPage:33  ] : Page was opened http://automationpractice.com/
+2021-30-11 21:47:22   INFO [WebElements:45  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (0a6c0b701c1e601fa3f49a3908b45142)] -> xpath: //a[@class='login']]
+2021-30-11 21:47:22   INFO [WebElements:30  ] : amada.bruen@yahoo.com was inputted
+2021-30-11 21:47:22   INFO [WebElements:45  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (0a6c0b701c1e601fa3f49a3908b45142)] -> id: SubmitCreate]
+2021-30-11 21:47:24   INFO [WebElements:56  ] : Checkbox is initially checked
+2021-30-11 21:47:24   INFO [WebElements:30  ] : Vitya was inputted
+2021-30-11 21:47:24   INFO [WebElements:30  ] : Pushkin was inputted
+2021-30-11 21:47:24   INFO [WebElements:30  ] : lachelle.champlin@gmail.com was inputted
+2021-30-11 21:47:24   INFO [WebElements:30  ] : qwerty321 was inputted
+2021-30-11 21:47:24   INFO [WebElements:86  ] : Was selected by value 1
+2021-30-11 21:47:24   INFO [WebElements:86  ] : Was selected by value 12
+2021-30-11 21:47:25   INFO [WebElements:86  ] : Was selected by value 1989
+2021-30-11 21:47:25   INFO [WebElements:30  ] : Vitya was inputted
+2021-30-11 21:47:25   INFO [WebElements:30  ] : Pushkin was inputted
+2021-30-11 21:47:25   INFO [WebElements:30  ] : street New York 21 was inputted
+2021-30-11 21:47:25   INFO [WebElements:30  ] : New York was inputted
+2021-30-11 21:47:25   INFO [WebElements:96  ] : Was selected is DropDown by text: New York
+2021-30-11 21:47:25   INFO [WebElements:30  ] : 12345 was inputted
+2021-30-11 21:47:25   INFO [WebElements:96  ] : Was selected is DropDown by text: United States
+2021-30-11 21:47:25   INFO [WebElements:30  ] : 1234567890 was inputted
+2021-30-11 21:47:26   INFO [WebElements:30  ] : Hello! was inputted
+2021-30-11 21:47:37   INFO [WebElements:45  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
