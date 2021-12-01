@@ -1,6 +1,8 @@
 package selenideTests;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.testng.ScreenShooter;
 import com.codeborne.selenide.testng.TextReport;
 import com.codeborne.selenide.testng.annotations.Report;
@@ -38,6 +40,7 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     public void testFindProduct(){
+//        Selenide.open(Configuration.baseUrl);
         mainPage.getProduct("Blouse").clickToProduct("Blouse");
     }
 }
