@@ -13,6 +13,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import static com.codeborne.selenide.Selectors.withText;
+
 @Listeners({ScreenShooter.class, TextReport.class})
 @Report
 public class RegistrationTest extends BaseTest {
@@ -42,5 +44,15 @@ public class RegistrationTest extends BaseTest {
     public void testFindProduct(){
 //        Selenide.open(Configuration.baseUrl);
         mainPage.getProduct("Blouse").clickToProduct("Blouse");
+        blousePage.blouseModel
+                .shouldHave(Condition.text("Model"),Condition.text("demo_2"));
+        blousePage.blouseCondition
+                .shouldHave(Condition.exactText("New"));
+        blousePage.blouseDataSheet.shouldHave(
+                Condition.text("Compositions"), Condition.text("Cotton"),
+                Condition.text("Styles"), Condition.text("Casual"),
+                Condition.text("Properties"), Condition.text("Short Sleeve"));
+        blousePage.blousePrice.shouldBe(Condition.text("$27.00"), Condition.visible);
+        blousePage.blouseAddToCartButton.shouldBe(Condition.visible, Condition.enabled);
     }
 }

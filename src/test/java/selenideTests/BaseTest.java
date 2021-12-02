@@ -18,6 +18,8 @@ import pagesSelenide.MainPage;
 import pagesSelenide.MyAccountPage;
 import pagesSelenide.RegistrationPage;
 import pagesSelenide.SignInPage;
+import pagesSelenide.pagesDomashkas.BlousePage;
+import pagesSelenide.pagesDomashkas.CartPopUpPage;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +35,12 @@ public class BaseTest {
     public MyAccountPage myAccountPage = new MyAccountPage();
     public MainPage mainPage = new MainPage();
     SelenoidWebDriverProvider selenoidWebDriverProvider = new SelenoidWebDriverProvider();
+
+    /**
+     * For domashka 9-10
+     */
+    public BlousePage blousePage = new BlousePage();
+    public CartPopUpPage cartPopUpPage = new CartPopUpPage();
 
     public void setUpBrowser(){
         ChromeOptions options = new ChromeOptions();
