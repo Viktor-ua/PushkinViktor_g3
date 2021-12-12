@@ -6,17 +6,17 @@
     <test name="ChromeTest" verbose="1" parallel="true">
         <parameter name="browserName" value="chrome">
             <classes>
-                <class name="seleniumTests.registrationTests.RegistrationTests"/>
+                <class name="selenideTests.RegistrationTest"/>
             </classes>
         </parameter>
     </test>
 
-    <test name="FirefoxTest" verbose="1" parallel="true">
-        <parameter name="browserName" value="firefox">
-            <classes>
-                <class name="seleniumTests.registrationTests.RegistrationTests"/>
-            </classes>
-        </parameter>
-    </test>
+<!--    <test name="FirefoxTest" verbose="1" parallel="true">-->
+<!--        <parameter name="browserName" value="firefox">-->
+<!--            <classes>-->
+<!--                <class name="seleniumTests.registrationTests.RegistrationTests"/>-->
+<!--            </classes>-->
+<!--        </parameter>-->
+<!--    </test>-->
 
 </suite>
