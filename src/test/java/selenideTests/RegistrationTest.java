@@ -42,7 +42,7 @@ public class RegistrationTest extends BaseTest {
 
     @Test
     public void testFindProduct(){
-//        Selenide.open(Configuration.baseUrl);
+        Selenide.open(Configuration.baseUrl);
         mainPage.getProduct("Blouse").clickToProduct("Blouse");
         blousePage.blouseModel
                 .shouldHave(Condition.text("Model"),Condition.text("demo_2"));
