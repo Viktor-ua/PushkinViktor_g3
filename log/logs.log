@@ -1563,3 +1563,27 @@ Tatooine
 200000
 https://swapi.dev/api/films/1/
 https://swapi.dev/api/people/1/
+2021-12-12 19:34:47   INFO [RegistrationTests:41  ] : chrome will be started
+2021-12-12 19:34:50   INFO [RegistrationTests:45  ] : chrome is started
+2021-12-12 19:34:58   INFO [  MainPage:33  ] : Page was opened http://automationpractice.com/
+2021-12-12 19:35:01   INFO [WebElements:45  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (05746cc05f76e6d55e328ffa5c8b1950)] -> xpath: //a[@class='login']]
+2021-12-12 19:35:01   INFO [WebElements:30  ] : wyatt.hackett@gmail.com was inputted
+2021-12-12 19:35:01   INFO [WebElements:45  ] : Element was clicked [[ChromeDriver: chrome on WINDOWS (05746cc05f76e6d55e328ffa5c8b1950)] -> id: SubmitCreate]
+2021-12-12 19:35:04   INFO [WebElements:56  ] : Checkbox is initially checked
+2021-12-12 19:35:04   INFO [WebElements:30  ] : Vitya was inputted
+2021-12-12 19:35:04   INFO [WebElements:30  ] : Pushkin was inputted
+2021-12-12 19:35:04   INFO [WebElements:30  ] : deon.doyle@hotmail.com was inputted
+2021-12-12 19:35:04   INFO [WebElements:30  ] : qwerty321 was inputted
+2021-12-12 19:35:04   INFO [WebElements:86  ] : Was selected by value 1
+2021-12-12 19:35:04   INFO [WebElements:86  ] : Was selected by value 12
+2021-12-12 19:35:05   INFO [WebElements:86  ] : Was selected by value 1989
+2021-12-12 19:35:05   INFO [WebElements:30  ] : Vitya was inputted
+2021-12-12 19:35:05   INFO [WebElements:30  ] : Pushkin was inputted
+2021-12-12 19:35:05   INFO [WebElements:30  ] : street New York 21 was inputted
+2021-12-12 19:35:05   INFO [WebElements:30  ] : New York was inputted
+2021-12-12 19:35:05   INFO [WebElements:96  ] : Was selected is DropDown by text: New York
+2021-12-12 19:35:05   INFO [WebElements:30  ] : 12345 was inputted
+2021-12-12 19:35:05   INFO [WebElements:96  ] : Was selected is DropDown by text: United States
+2021-12-12 19:35:05   INFO [WebElements:30  ] : 1234567890 was inputted
+2021-12-12 19:35:06   INFO [WebElements:30  ] : Hello! was inputted
+2021-12-12 19:35:18   INFO [WebElements:45  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
