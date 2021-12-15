@@ -1,8 +1,6 @@
 package ApiTests;
 
-import api.assertions.AssertableResponse;
 import api.services.Utils;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static api.conditions.Conditions.*;
@@ -38,14 +36,5 @@ public class Domashka_12 extends BaseTest {
                 .shouldHave(body("height", greaterThanOrEqualTo("201")))
                 .shouldHave(body("vehicles", empty()));
         Utils.resetSession();
-    }
-
-    @Test
-    void testQuantityFilmsWithVader(){
-        AssertableResponse r = peopleApiServices.getVader();
-        Assert.assertEquals(200, r.response.extract().statusCode());
-        Assert.assertEquals("application/json", r.response.extract().contentType());
-        Assert.assertEquals(r.response.extract().path("films[1]"),
-                equalTo("https://swapi.dev/api/films/1/"));
     }
 }
