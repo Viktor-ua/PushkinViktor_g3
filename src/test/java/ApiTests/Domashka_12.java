@@ -2,7 +2,6 @@ package ApiTests;
 
 import api.services.Utils;
 import org.testng.annotations.Test;
-
 import static api.conditions.Conditions.*;
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.core.Is.is;
