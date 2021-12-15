@@ -50,4 +50,13 @@ public class PeopleApiServices {
                         .get("/people/1")
                         .then());
     }
+
+    @Step("Get Vader")
+    public AssertableResponse getVader(){
+        log.info("Get people - /people/4");
+        return new AssertableResponse(
+                requestSpec.when()
+                        .get("/people/4")
+                        .then());
+    }
 }

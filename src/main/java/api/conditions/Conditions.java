@@ -11,4 +11,15 @@ public class Conditions {
     public static ResponseBodyCondition body(String path, Matcher matcher){
         return new ResponseBodyCondition(path, matcher);
     }
+
+    /**
+     * For Domashka 12
+     */
+    public static ContentTypeCondition contentType(String contType){
+        return new ContentTypeCondition(contType);
+    }
+
+    public static StatusLineCondition statusLine(String statusLine){
+        return new StatusLineCondition(statusLine);
+    }
 }
